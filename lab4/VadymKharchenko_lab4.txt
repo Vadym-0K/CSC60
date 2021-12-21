@@ -1,0 +1,22 @@
+Script started on 2021-10-08 13:38:23-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;vadym@DESKTOP-MMT851A: .../lab4[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab4[00m$ gxx[K[Kcc lab4/c[K[K.c
+]0;vadym@DESKTOP-MMT851A: .../lab4[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab4[00m$ ./a.out
+]0;vadym@DESKTOP-MMT851A: .../lab4[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab4[00m$ cat lab4.txt 
+
+Vadym Kharchenko.  Lab 4. 
+
+Area of Trapezoid 
+
+ Height      Side1       Side2         Area   
+--------   ---------   ---------   ---------- 
+   6.40      12.60      20.80       106.880
+   4.00       5.60       7.80        26.800
+   5.20       5.60       7.80        34.840
+   6.20       7.85      12.61        63.426
+   4.60       8.90       4.70        31.280
+
+
+]0;vadym@DESKTOP-MMT851A: .../lab4[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab4[00m$ exit
+exit
+
+Script done on 2021-10-08 13:38:54-07:00 [COMMAND_EXIT_CODE="0"]

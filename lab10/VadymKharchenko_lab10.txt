@@ -1,0 +1,126 @@
+Script started on 2021-12-07 19:37:04-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;vadym@DESKTOP-MMT851A: .../lab10[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab10[00m$ exit./lab10[3Pmaketouch lab9_10.h exit[Kssh vadymkharchenko@ecs-pa-coding1.ecs.csus.edu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ktouch lab9_10.h 
+]0;vadym@DESKTOP-MMT851A: .../lab10[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab10[00m$ touch lab9_10.h exit[K./lab10[3Pexittouch lab9_10.h [Kmake
+gcc -c lab10.c -Wall
+gcc -c RunExtCmd.c ProcessCmd.c -Wall
+cc    -c -o ParseCmd.o ParseCmd.c
+gcc -c Redirection.c -Wall
+gcc lab10.o RunExtCmd.o ParseCmd.o ProcessCmd.o Redirection.o -o lab10 -Wall
+]0;vadym@DESKTOP-MMT851A: .../lab10[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab10[00m$ ,[K./lab10
+
+csc60shell> ls > lsout
+Argc = 3 
+Argv 0 = ls 
+Argv 1 = > 
+Argv 2 = lsout 
+Child returned status: 0
+
+csc60shell> cat lsout
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = lsout 
+ParseCmd.c
+ParseCmd.o
+ProcessCmd.c
+ProcessCmd.o
+Redirection.c
+Redirection.o
+RunExtCmd.c
+RunExtCmd.o
+VadymKharchenko_lab10.txt
+extra
+lab10
+lab10.c
+lab10.o
+lab9_10.h
+lsout
+makefile
+Child returned status: 0
+
+csc60shell> c ls > lsout > file1
+Argc = 5 
+Argv 0 = ls 
+Argv 1 = > 
+Argv 2 = lsout 
+Argv 3 = > 
+Argv 4 = file1 
+Error, cannot output to more than one file
+Child returned status: 256
+
+csc60shell> cat foo.txt
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = foo.txt 
+cat: foo.txt: No such file or directory
+Child returned status: 256
+
+csc60shell> > lsout
+Argc = 2 
+Argv 0 = > 
+Argv 1 = lsout 
+No command entered
+Child returned status: 256
+
+csc60shell> M<  < lsout
+Argc = 2 
+Argv 0 = < 
+Argv 1 = lsout 
+ERROR, No command entered
+Child returned status: 256
+
+csc60shell> wc < lsout
+Argc = 3 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+ 16  16 179
+Child returned status: 0
+
+csc60shell> wc < lsout > wcout
+Argc = 5 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+Argv 3 = > 
+Argv 4 = wcout 
+Child returned status: 0
+
+csc60shell> cd  cat wcout
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = wcout 
+ 16  16 179
+Child returned status: 0
+
+csc60shell> ^[[A^[[A        cd ../lab1
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = ../lab1 
+
+csc60shell> gcc lab1.c
+Argc = 2 
+Argv 0 = gcc 
+Argv 1 = lab1.c 
+Child returned status: 0
+
+csc60shell> ./a.out
+Argc = 1 
+Argv 0 = ./a.out 
+
+Lab 1. 
+
+Hello World.
+Hi, Vadym Kharchenko. 
+
+"---we do what we can --- because we must--"
+ -portal -aperture
+
+Child returned status: 0
+
+csc60shell> exit
+Argc = 1 
+Argv 0 = exit 
+]0;vadym@DESKTOP-MMT851A: .../lab10[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab10[00m$ exit
+exit
+
+Script done on 2021-12-07 19:39:50-08:00 [COMMAND_EXIT_CODE="0"]

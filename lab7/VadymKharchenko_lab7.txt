@@ -1,0 +1,32 @@
+Script started on 2021-11-09 14:39:11-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;vadym@DESKTOP-MMT851A: .../lab7[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab7[00m$ touch lab7.h
+]0;vadym@DESKTOP-MMT851A: .../lab7[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab7[00m$ make
+gcc -c lab7.c -lm
+gcc -c get_data.c -lm
+gcc -c get_stats.c -lm
+gcc -c open_out_file.c -lm
+gcc -c print_all.c -lm
+gcc lab7.o get_data.o get_stats.o open_out_file.o print_all.o lab7.h -o lab7
+]0;vadym@DESKTOP-MMT851A: .../lab7[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab7[00m$ ./lab7
+]0;vadym@DESKTOP-MMT851A: .../lab7[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab7[00m$ cat lab6[K7.txt
+
+Vadym Kharchenko, Lab 7 output.
+
+Track Results
+
+Name               Try 1   Try 2   Try 3   Try 4  Best throw  Deviation
+----------------   -----   -----   -----   -----  ---------   ---------
+Dani Potato        67.37   66.60   71.70   67.27     71.70       0.00
+Jane Smith         50.51   62.23   69.25   67.54     69.25       2.45
+Kelsey Tan         61.97   67.04   61.17   67.95     67.95       3.75
+Christine Forest   68.17   59.83   69.12   68.19     69.12       2.58
+
+
+Best Throw Average  =  69.50 meters
+
+Winning Throw       =  71.70 meters
+
+]0;vadym@DESKTOP-MMT851A: .../lab7[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab7[00m$ exit
+exit
+
+Script done on 2021-11-09 14:39:47-08:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,57 @@
+Script started on Tue Nov 23 19:10:03 2021
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab9[?1034h[vadymkharchenko@ecs-pa-coding1 lab9]$ touch ;ab9    lab9_10.h
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab9[vadymkharchenko@ecs-pa-coding1 lab9]$ make
+make: Warning: File `lab9_10.h' has modification time 2.5 s in the future
+gcc -c lab9.c -Wall
+gcc -c ParseCmd.c -Wall
+gcc lab9.o ParseCmd.o -o lab9 -Wall
+make: warning:  Clock skew detected.  Your build may be incomplete.
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab9[vadymkharchenko@ecs-pa-coding1 lab9]$ ./lab9
+
+csc60shell> 
+Argc = 0 
+A command was not entered.
+csc60shell>  
+Argc = 0 
+A command was not entered.
+csc60shell> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/vadymkharchenko/csc60/lab9
+
+csc60shell> cd ..
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = .. 
+
+csc60shell> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/vadymkharchenko/csc60
+
+csc60shell> cd lab9
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = lab9 
+
+csc60shell> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/vadymkharchenko/csc60/lab9
+
+csc60shell> cd
+Argc = 1 
+Argv 0 = cd 
+
+csc60shell> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/vadymkharchenko
+
+csc60shell> exit
+Argc = 1 
+Argv 0 = exit 
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab9[vadymkharchenko@ecs-pa-coding1 lab9]$ exit
+exit
+
+Script done on Tue Nov 23 19:11:26 2021

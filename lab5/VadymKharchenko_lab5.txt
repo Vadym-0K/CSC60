@@ -1,0 +1,50 @@
+Script started on 2021-10-31 13:20:03-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;vadym@DESKTOP-MMT851A: .../lab5[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab5[00m$ touch lab5.h
+]0;vadym@DESKTOP-MMT851A: .../lab5[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab5[00m$ make
+gcc -c lab5.c -lm
+gcc -c class_stats.c -lm
+gcc lab5.o class_stats.o lab5.h -o lab5
+]0;vadym@DESKTOP-MMT851A: .../lab5[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab5[00m$ ,.[K[K./lab5
+
+
+Vadym Kharchenko.  Lab 5. 
+
+Stats for lab5a.dat:  
+
+   Average grade = 85.620690 
+
+   Grade Distribution:  
+      Category 100 -  0 
+      Category  90 - 14 
+      Category  80 -  8 
+      Category  70 -  6 
+      Category  60 -  0 
+      Category  50 -  0 
+      Category  40 -  1 
+      Category  30 -  0 
+      Category  20 -  0 
+      Category  10 -  0 
+      Category   0 -  0 
+
+
+Stats for lab5b.dat:  
+
+   Average grade = 85.793103 
+
+   Grade Distribution:  
+      Category 100 -  2 
+      Category  90 - 11 
+      Category  80 -  7 
+      Category  70 -  7 
+      Category  60 -  1 
+      Category  50 -  1 
+      Category  40 -  0 
+      Category  30 -  0 
+      Category  20 -  0 
+      Category  10 -  0 
+      Category   0 -  0 
+
+]0;vadym@DESKTOP-MMT851A: .../lab5[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab5[00m$ exut[K[Kit
+exit
+
+Script done on 2021-10-31 13:20:32-07:00 [COMMAND_EXIT_CODE="0"]

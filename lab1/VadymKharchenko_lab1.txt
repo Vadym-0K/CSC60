@@ -1,0 +1,16 @@
+Script started on Mon 13 Sep 2021 04:11:31 PM PDT
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab1[?1034h[vadymkharchenko@ecs-pa-coding1 lab1]$ gcc lab1.c
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab1[vadymkharchenko@ecs-pa-coding1 lab1]$ ./a.out
+
+Lab 1. 
+
+Hello World.
+Hi, Vadym Kharchenko. 
+
+"---we do what we can --- because we must--"
+ -portal -aperture
+
+]0;vadymkharchenko@ecs-pa-coding1:~/csc60/lab1[vadymkharchenko@ecs-pa-coding1 lab1]$ exit
+exit
+
+Script done on Mon 13 Sep 2021 04:11:59 PM PDT

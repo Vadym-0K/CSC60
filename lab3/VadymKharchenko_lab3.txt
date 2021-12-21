@@ -1,0 +1,27 @@
+Script started on 2021-09-27 18:40:55-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="84" LINES="10"]
+]0;vadym@DESKTOP-MMT851A: .../lab3[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab3[00m$ gcc lab3.c
+]0;vadym@DESKTOP-MMT851A: .../lab3[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab3[00m$ a,[K.out
+a.out: command not found
+]0;vadym@DESKTOP-MMT851A: .../lab3[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab3[00m$ a[K./a.out
+
+Vadym Kharchenko. Lab 3.
+
+Mary went to the store.
+
+My friend is 25 years old 
+
+"So many books, so little time."
+ -Frank Zappa
+
+The average = 625.3
+
+The average = 625.278
+
+The average = 6.25e+02
+
+The average = 625.278100
+
+]0;vadym@DESKTOP-MMT851A: .../lab3[01;32mvadym@DESKTOP-MMT851A[00m:[01;34m.../lab3[00m$ exit
+exit
+
+Script done on 2021-09-27 18:41:17-07:00 [COMMAND_EXIT_CODE="0"]
